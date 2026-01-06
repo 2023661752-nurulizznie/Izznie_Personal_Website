@@ -85,11 +85,12 @@ header .icons a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #ffd4e6; 
+    background: whitesmoke; 
     min-width: 160px;
     border-radius: 8px;
     box-shadow: 0 3.2px 12.8px rgba(0,0,0,0.2);
-    top: 36.8px; 
+    top: 100%; 
+    left: 0;
     z-index: 1000;
 }
 
@@ -102,7 +103,7 @@ header .icons a:hover {
 }
 
 .dropdown-content a:hover {
-    background: #ffc1dc;
+    background: pink;
     color: var(--hotpink);
 }
 
